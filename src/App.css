@@ -1,0 +1,101 @@
+.app {
+  text-align: center;
+}
+
+.background {
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+  transition: transform .3s ease-out;
+}
+
+.background-item {
+  background-image: url(assets/imgs/backgroud_images/night/01.jpg);
+  opacity: 0;
+  transition: transform .3s ease-out;
+  animation: fade-in .3s ease-out 0s forwards;
+}
+
+.background,
+.background-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.background-overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  background-image: url(assets/imgs/backgroud_images/background-overlay-vignette.png);
+  background-size: 100% 100%;
+  opacity: 0;
+  transition: opacity .3s ease-out;
+}
+
+.logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.main {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 3;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  transition: opacity .3s ease;
+}
+
+.header {
+  background-color: transparent;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.link {
+  color: #61dafb;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
