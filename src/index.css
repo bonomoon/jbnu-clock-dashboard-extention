@@ -18,3 +18,42 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+  background-color: #fff;
+  width: 80vw;
+  padding: 40px;
+  height: 55vh;
+  border-left: 3px solid #f15025;
+}
+
+.quote-text {
+  min-height: 20vh;
+}
+
+.container h1 {
+  font-size: 50px;
+  text-align: left;
+}
+
+.container p {
+  text-transform: capitalize;
+    color: #ced0ce;
+    text-align: right;
+    font-style: italic;
+    font-size: 30px;
+}
+
+#btn {
+  margin-top: 30px;
+  font-size: 25px;
+  padding: 10px 20px;
+  background-color: #191716;
+  color: #F15025;
+  text-transform: uppercase;
+}
+
+#btn:hover {
+  color: #191716;
+  background-color: #f15025;
+}

@@ -1,4 +1,9 @@
+// css import
 import './App.css';
+
+// components import
+import Header from './components/Header';
+import Quote from './components/Quote';
 
 export default function App() {
   return (
@@ -7,13 +12,12 @@ export default function App() {
         <div className="background-item"></div>
       </div>
       <div className="main">
-        <header className="header">
-          <p>
-            안녕안녕 내 이름은 봉오야~ 혜선이 안녕 준서 안녕
-          </p>
-        </header>
+        
+        <Header />
         <main></main>
-        <footer></footer>
+        <footer>
+          <Quote />
+        </footer>
       </div>
     </div>
   );

@@ -68,7 +68,7 @@
 
 .header {
   background-color: transparent;
-  min-height: 100vh;
+ /* min-height: 100vh;*/
   display: flex;
   flex-direction: column;
   flex: 1 1 auto;
@@ -80,6 +80,13 @@
 
 .link {
   color: #61dafb;
+}
+
+.quote {
+  color: white;
+  font-size: 13px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 @keyframes logo-spin {
