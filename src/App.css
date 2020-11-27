@@ -81,8 +81,12 @@
 .quote {
   color: white;
   font-size: 13px;
-  margin-left: 50px;
-  margin-right: 50px;
+  height: 57px;
+  line-height: 1.2;
+  margin-left: 200px;
+  margin-right: 200px;
+  text-shadow: 30px 30px 30px #000;
+  font-weight: 600;
 }
 
 .link {
