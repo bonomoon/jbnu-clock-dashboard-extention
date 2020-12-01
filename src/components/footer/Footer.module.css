@@ -1,0 +1,21 @@
+.app-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left-content, .center-content, .right-content {
+    display: flex;
+    align-items: flex-end;
+    flex: 0 0;
+}
+
+.center-content {
+    flex: 1 1 auto;
+    min-width: 0;
+}
+
+.right-content {
+    justify-content: flex-end;
+}
+
