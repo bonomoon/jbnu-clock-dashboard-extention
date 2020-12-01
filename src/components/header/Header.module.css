@@ -1,0 +1,19 @@
+.app-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left-content, .center-content, .right-content {
+    display: flex;
+    flex: 0 0 auto;
+}
+
+.center-content {
+    min-width: 0;
+}
+
+.right-content {
+    justify-content: flex-end;
+}
+
