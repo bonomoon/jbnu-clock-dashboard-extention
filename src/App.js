@@ -1,23 +1,19 @@
 // css import
-import './App.css';
+import "./App.css";
 
 // components import
-import Quote from './components/Quote';
+import HomePage from "./pages/HomePage";
 
 export default function App() {
   return (
     <div className="app">
-      <div className="background">
-        <div className="background-item"></div>
+      <div className={"background"}>
+        <div className={"background-item"}></div>
       </div>
+      <div className={"background-overlay"}></div>
       <div className="main">
-        <header></header>
-        <main></main>
-        <footer>
-          <Quote />
-        </footer>
+        <HomePage />
       </div>
     </div>
   );
 }
-
