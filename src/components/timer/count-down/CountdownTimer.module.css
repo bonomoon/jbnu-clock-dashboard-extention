@@ -1,0 +1,38 @@
+/* CountdownTimer Style */
+.container {
+
+}
+
+.content {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.item {
+    padding-inline: 20px;
+}
+
+/* TimerItem Style */
+.itemContainer {
+    display: inline-block;
+    height: auto;
+}
+
+.itemContent {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+}
+
+.itemValue {
+    font-size: 7.125rem;
+    font-weight: 600;
+    line-height: 100px;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+.itemName {
+    font-size: 2rem;
+    font-weight: 500;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
