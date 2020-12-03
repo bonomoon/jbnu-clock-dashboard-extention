@@ -61,23 +61,6 @@
   -webkit-animation: fade-in .5s ease 0s forwards;
 }
 
-.container {
-  background-color: transparent;
-  display: flex;
-  flex-direction: column;
-  flex: 1 1 auto;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.greeting {
-  line-height: 0px;
-  font-size: 1.5rem;
-  font-weight: 400;
-  color: rgba(255, 255, 255, 0.9); 
-}
 
 @keyframes fade-in {
     from {

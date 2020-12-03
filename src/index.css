@@ -1,8 +1,17 @@
 @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 
+body,
+html {
+    height: 100%
+}
+
 body {
   margin: 0;
-  background-color: rgba(0, 0, 0, 0.05);
+  min-height: 100%;
+  overflow: hidden;
+  background: #fff;
+  color: #fff;
+  text-shadow: 0 1px 5px rgba(0, 0, 0, .1);
   font-family: "Nanum Gothic", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,7 +19,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@media (prefers-color-scheme: dark) {
+    body {
+        background: #212121
+    }
+}
+
+input,
+textarea {
+    background: 0 0
 }
