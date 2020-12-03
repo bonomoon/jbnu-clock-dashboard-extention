@@ -1,0 +1,31 @@
+.container {
+    flex-direction: row;
+}
+
+.container, .weather-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather-content {
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.weather-icon {
+    height: 60px;
+}
+
+.weather-city-name, .weather-temp, .weather-degree {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.weather-city-name {
+    font-size: .8125rem;
+}
+
+.weather-degree {
+    white-space: nowrap;
+}
