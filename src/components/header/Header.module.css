@@ -2,18 +2,23 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 0px 15px;
 }
 
 .left-content, .center-content, .right-content {
     display: flex;
+    align-items: flex-start;
     flex: 0 0 auto;
 }
 
 .center-content {
     min-width: 0;
+    justify-content: center;
+    flex: 1 1 auto;
 }
 
 .right-content {
+    flex-wrap: wrap;
     justify-content: flex-end;
 }
 
