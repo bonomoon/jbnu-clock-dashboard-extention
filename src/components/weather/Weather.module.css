@@ -1,5 +1,6 @@
 .container {
     flex-direction: row;
+    margin-top: -5px;
 }
 
 .container, .weather-content {
@@ -14,7 +15,8 @@
 }
 
 .weather-icon {
-    height: 60px;
+    height: 75px;
+    margin-right: -5px;
 }
 
 .weather-city-name, .weather-temp, .weather-degree {
