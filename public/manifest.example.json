@@ -3,8 +3,8 @@
   "name": "JBNU Clock Dashboard Extention",
   "description": "이 앱은 전북대학교 학사일정에 맞춰 종강을 향해 나아가는 학우들의 여정을 보여주는 대시보드 확장 프로그램입니다.",
   "manifest_version": 2,
-  "version": "0.0.1",
-  "permissions": ["tabs", "storage"],
+  "version": "0.1.1",
+  "permissions": ["tabs", "storage", "geolocation"],
   "content_security_policy": "script-src 'self' 'sha256-h+i+Jv...'; object-src 'self'",
   "browser_action": { "default_popup": "index.html", "default_title": "JBNU Clockboard" },
   "chrome_url_overrides": {
